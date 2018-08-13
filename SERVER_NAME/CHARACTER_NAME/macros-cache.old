@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "Feign/Pet" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Feign Death
+/cast Play Dead
+END

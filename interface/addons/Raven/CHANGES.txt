@@ -1,0 +1,9 @@
+------------------------------------------------------------------------
+r420 | Tomber | 2018-08-07 19:51:17 +0000 (Tue, 07 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/Localizations/enUS.lua
+   M /trunk/Raven_Options/Options.lua
+
+Improve tooltip for Color special effect to indicate that it is only visible when using the right foreground bar color scheme.
+------------------------------------------------------------------------
+

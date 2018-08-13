@@ -1,0 +1,30 @@
+tag 930788e1e9278bfc0ffc0a6c5d63b4b2bd0d3168 3.3.1-release
+Author:	Hizuro <hizuro@gmx.net>
+Date:	Sun Jul 22 05:28:17 2018 +0200
+
+Tagging as 3.3.1-release
+
+commit ff1341e42b7f24c7953d05d50619cbdd647fe39b
+Author: Hizuro <hizuro@gmx.net>
+Date:   Sun Jul 22 05:21:05 2018 +0200
+
+    guild: fix error on try to display tooltip; fix missing click option for professions in tooltip
+
+commit 56d81c5b87f2ad3c7fba9004de3602b80d744b7a
+Author: Hizuro <hizuro@gmx.net>
+Date:   Sun Jul 22 05:02:00 2018 +0200
+
+    shared: fix bug in 'Show chars from' option
+
+commit ef93acf686c8d9e56ea4ed87d5bcfc37dd120a6f
+Author: Hizuro <hizuro@gmx.net>
+Date:   Sun Jul 22 04:55:12 2018 +0200
+
+    gold: oops. added missing tooltip lines for new profit/loss option
+
+commit 8aca4474a0290421903f4b1cb4b0c6635efd2160
+Author: Hizuro <hizuro@gmx.net>
+Date:   Sun Jul 22 04:37:02 2018 +0200
+
+    clock: now it is possible to display realm and local time side by side on broker button
+

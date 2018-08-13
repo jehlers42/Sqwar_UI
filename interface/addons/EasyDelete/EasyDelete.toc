@@ -1,0 +1,14 @@
+## Interface: 80000
+## X-Min-Interface: 80000
+## Title: Lerith's easy delete
+## Title-deDE: Leriths einfaches Löschen
+## Title-esES: Lerith es fácil de borrar
+## Title-koKR: 래리스의 쉬운 삭제
+## Title-zhTW: ลบง่าย Lerith
+## Title-zhCN: Lerith很容易刪除
+## Title-ruRU: Легкое удаление Лерита
+## Notes: This AddOn makes it easy to delete valueable items
+## Author: Lerith
+## Version: 8.0
+## DefaultState: enabled
+EasyDelete.lua
