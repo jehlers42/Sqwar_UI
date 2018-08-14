@@ -50,25 +50,5 @@ _**Tip**: Select yourself, then right click the Raven minimap button, to see the
 * If you want to change the unit frame colors, type /suf in chat and select General > Colors.
   * For example, the main health bar color is called Static.
  
-## UI Changelog
-### Patch 1.0.0
-* Changed parent anchor point of Grid2 for a more responsive UI
-* Changed chat anchor for left kgPanel to the bottom-left
-* This should allow you to resize using the top and right edges without adjusting the placement of the kgPanel
-* Changed anchor point of Skada for the right kgPanel to allow for a larger view
-* Removed Bazooka data broker addon
-* Added ChocolateBar data broker addon
-* Created new Weak Auras, positioned above the player healthbar
-  * Combo points for Rogues and Feral Druids
-  * Soul Shards for Warlocks
-  * Chi for Monks
-  * Runes for Death Knights (change color based on spec)
-* Changed static healthbar color to purple (#ForTeldrassil)
-* Changed font for most elements to make them easier to read
-* Moved tooltip position to the top left, next to the minimap
-* To change, type /tip in chat, click Anchor, drag the anchor to your desired location, click X on the anchor to lock it in place
-* Removed extraneous and unused addons and lua files for a cleaner start
-### Patch 1.0.1
-* Disabled 3D gear model in tooltip (MogIt setting)
-* Disabled auto-switch functionality for progress bar (Dominos setting)
+
 
