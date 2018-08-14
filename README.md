@@ -42,7 +42,7 @@ Think of this UI as a base to build onto for your own needs. Below are some help
 #### eAlign
 * Typing /align in chat will display a segmented grid overlay, helpful for placing UI elements in accurate positions.
 #### Quartz
-* Depending on your resolution, the player and enemy cast bars may be out of place. If they are, type `/quartz3` unlock in chat to unlock the bars. From here, you can drag them to the correct position just above each healthbar.<br />
+* Depending on your resolution, the player and enemy cast bars may be out of place. If they are, type `/quartz unlock` in chat to unlock the bars. From here, you can drag them to the correct position just above each healthbar.<br />
 _**Tip**: Select yourself, then right click the Raven minimap button, to see the gap of space where the cast bars should reside._
 #### Skada
 * You may notice my character’s name already showing in Skada. Clear this by clicking the X in Skada’s title bar, then click the checkmark to clear its history.
