@@ -1,0 +1,23 @@
+
+DialogKeyDB = {
+	["profileKeys"] = {
+		["Alaeana - Proudmoore"] = "Default",
+		["Gwathren - Proudmoore"] = "Default",
+		["Jiaxing - Proudmoore"] = "Default",
+		["Gwathren - Hyjal"] = "Default",
+		["Ravna - Proudmoore"] = "Default",
+		["Sifrun - Proudmoore"] = "Default",
+		["Seimira - Proudmoore"] = "Default",
+		["Athaeriel - Proudmoore"] = "Default",
+		["Celíara - Proudmoore"] = "Default",
+		["Celiara - Hyjal"] = "Default",
+		["Mirethiel - Proudmoore"] = "Default",
+		["Kathlian - Proudmoore"] = "Default",
+		["Farathiel - Proudmoore"] = "Default",
+		["Velithriel - Proudmoore"] = "Default",
+		["Lucrais - Proudmoore"] = "Default",
+	},
+	["global"] = {
+		["shownBindWarning"] = true,
+	},
+}

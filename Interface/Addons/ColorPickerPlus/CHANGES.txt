@@ -1,0 +1,10 @@
+lightweight tag 6e9ba8dbaba6c90065044204fb3edf1c0b10ec95 r48
+Author:	GitHub <noreply@github.com>
+Date:	Mon Oct 19 10:50:25 2020 -0700
+
+commit 6e9ba8dbaba6c90065044204fb3edf1c0b10ec95
+Author: Jaslm <70230626+Jaslm@users.noreply.github.com>
+Date:   Mon Oct 19 10:50:25 2020 -0700
+
+    Fix for classic dialog box header
+

@@ -1,0 +1,16 @@
+## Interface: 90002
+## Author: Erieeroot    
+## Version: 1.03
+## Title: |cFFFFC44DvUI|r MiniMap Button
+## Notes: Adds a minimap button for vUI usage
+## RequiredDeps: vUI
+## X-Embeds:LibDataBroker-1.1, LibDBIcon-1.0
+
+
+#Libraries
+Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libraries\LibStub\LibStub.lua
+
+#Scripts
+vUI_Button.lua

@@ -1,39 +1,53 @@
 # Sqwarlock’s World of Warcraft UI
+
+To download this UI, click **Code** and select **Download ZIP** from the dropdown.
+
 ## Installation Instructions
-1. Backup the folders: `%install_location%\World of Warcraft\interface` and `%install_location%\World of Warcraft\WTF`
+
+1. Backup the folders: `%install_location%\World of Warcraft\_retail_\interface` and `%install_location%\World of Warcraft\_retail_\WTF`
 2. Delete the `interface` folder
-3. Navigate to: `%install_location%\World of Warcraft\WTF\Account\%wow_account_name%` and delete all folders<br />
-_**IMPORTANT**: Do not delete any loose files, including those ending in: .old, .wtf, .md5, or .txt._
-4. Extract the `interface` folder from `Final_SqwarUI.zip` to `%install_location%\World of Warcraft\`<br />
-_**Note**: If prompted, overwrite any files that already exist_
-5. Extract the `SavedVariables` and `SERVER_NAME` folders from the zip to `%install_location%\World of Warcraft\WTF\Account\%wow_account_name%`
-6. Rename the `SERVER_NAME` folder with the correct server name<br />
-_**Note**: If you play on multiple servers, duplicate this folder and rename it for each server_
-7. In the server folder, rename `CHARACTER_NAME` to the name of your character<br />
-_**Note**: If you play multiple characters, duplicate this folder and rename it for each character_
-8. Launch World of Warcraft and log in to your character
-9. After logging in:
-   1. Press Enter and type `/dominos` in chat
-   2. Select **Profiles** in the nav bar
-   3. Click **Default**
+3. Navigate to: `%install_location%\World of Warcraft\_retail_\WTF\Account\%account_name%` and delete all folders<br />
+_**IMPORTANT**: Do not delete files in this directory_
+1. Extract the `interface` folder to `%install_location%\World of Warcraft\_retail_`
+5. Extract the `SavedVariables` folder to `%install_location%\World of Warcraft\_retail_\WTF\Account\%account_name%`
+_**NOTE**: This version of the UI does not use a server and character folder_
+6. Launch World of Warcraft and log in to your character
+7. After logging in:
+   1. Use the in-game chat and enter `/dominos`
+   2. Select **Profiles**
+   3. Select **Default** from the **Existing Profiles** dropdown
    4. Click **Okay**
-   5. Press **Enter** and type `/grid2` in chat
-   6. Click **General Settings**, then select the **Profiles** tab
+   5. Use the in-game chat and enter `/grid2`
+   6. Select the **Profiles** tab
    7. Select **Default** from the **Existing Profiles** dropdown
    8. Click **Close**
-   9. Press **Enter** and type `/raven` in chat
+   9. Use the in-game chat and enter `/raven`
    10. Select the **Profiles** tab
    11. Select **Default** from the **Existing Profiles** dropdown
    12. Click **Close**
-   13. (OPTIONAL) If your minimap is in the upper-right instead of the upper-left:
-       1. Right-click your minimap
-       2. Check **Use Global Profile**
-       3. Click **Accept** on the popup to reload your UI
-10. Unlock your chat window and drag it to the lower left corner to mirror the Skada panel<br />
-_**Note**: While your chat window is unlocked, you can resize it using the windows edges. It is anchored to the panel at the bottom left corner, so use the top and right edges to resize it and keep it in the corner position._
-11. Congrats, you is dun
+   13. Right-click your minimap
+   14. Check **Use Global Profile**
+   15. Click **Accept** on the popup to reload your UI
+8.  Set your chat window up however you want
+9.  Congrats, you is dun
  
+## Special Instructions for Details!
+
+This version of the UI uses Details! for in-combat tracking instead of Skada. The addon is a little more complicated, but much more accurate.
+
+To set it up, click the **gear** icon and select **Options Panel**. In the panel, select **Options** and click **Import Profile**. Paste the following into the text field and click **Okay**. If you want to use this profile on other characters, check **Use On All Characters**.
+<details>
+<summary>Click to view import text...</summary>
+<p>
+
+```
+vZZAVnosY9B5qqqMf48e((roKpinwAgFJTSJO8n7IyyAkXwseMIuhjL94nz9V9up6MV0d7DVC7LaS7yjYURUQQR3D16E97NDFW2I8LjPc8JLRZFomQqKffwKNkctwKND)87dweTTAxHiSqeLIJBn(3HW43kstxevwHFzts5I4OQi8Zr7kO)kYefREb)uC0MOvc4tv3huaRYYOya(za0MOFFa8Hjg3pr7Jg47lRGfAJOiew(LjRWvCjSiWd2TfwbrjIt)1DjlEmmwujwuLWOzHOuufci1IWfrlwlWNLLhgLkkQO5SRuegLLSjcNry0IfcImItkJMdK7MxQwNSimEx2kbbraxIstd3Mg9IOOe5mHRkY3TvblKqQHxjcQcX28IQqKbfMMK9yjJxBYFI5EBcxwKVjmdipMNbZE3Mq41f4kTiFZ8OQWQe41t01ag4tIm47frlEuuGmcyVbq1yeSlZHxTipnVG5I4)zq)Rj9Vw4)cKaGhcaJswTUcEIJ8bTNO2h1L8FEY0FTW)AIaGwOY1rX5pFFWKRNms9OKFwIM0xxgTqCFW4IKF(1h(p2ffxacdV(WmC3RaPxLawvsvkr9W(mkVeC51F7(G5ajgxKVTpI5OWmhfQ5iXnlxI6YbwdXpuKOPgGrpNexTgMQTwnlOs8Duk((GZfvrjPLV(qGaK1tQE5(G8T0wyOctRi5uEZSkp85153ha6bPrLLKawjGM5fXLiE6yuJTg26(2M6g2sK201wH14ZS4XaWEIJz9KObrd)ydgPc5OvCdd5yLJtxnq9goxnwCSX2gV7JW9hBd66jrx9dpqRJHPhGQSpbYUphZ5uJUEWifqa3TE4Qb7CIr7vpAhtdVMfW94tXVEk1BGEhF4oAhJdU3yTDDpXoZhvJ2rYgBj)DagdnplEEiS90pHG3EG26edUhKnCSpbhFVb3SB6SpZEVr7EkE9EJ27uWEpXqh)JUZS3yD1ofI0F4Tg9XTm0F3xxZ44m9UABU6hfZ7Xt01mp(MtpGACun4EIh6AwNGr3dQMNsiThGBj2TVKuFMSUM9j2t6IfnIO7rB7RF7Ccz)9vV1pkK3t808uA3DhDvD8zHLrqmeBZPWmQYZtRs2kJflgImQSkQAx58OgpNMkqRaSeSEGraWD5eh8FCVp4B5fPXbW0fGdXf5GdsPlFYrCyb5uTDagaBUfV9aHy4wJGHBI(EyvuXkbeagm3amIsoUba1)gp2Vq)PQ7K2QMru2I1iAisHOSEsGJAl805ZlepLqbE1AyIyWBnfrjhk7M8DzvCSbexcdb4aHmP9rFDxN(efYdAcXbJpbd(llUrq2Vo4e)6Ot8DQ5ZyOS7MVrKTl8zi6UTrBHy4g2ayzKqe4jgZCiKcglPOlqE0qc7m0rb6GlXVO5sUNcM1(ltBnmyzH4i3eLrHN0JVgnpjnPkbIHgeaim54HTjrNobKXeCFwvdI3lcRHrfdP396dM17L5lxcbQ3dIkgohMjSLH8TYW5RAG6fzqoai6ExWnJU8YHxF9xVlatbzEE(JNDdKFXz614ICNZcau03t2GS7nIQ15XK4HetkxuiezKwfJn2AUO0nGrNzAZQGQXUnpjJi1QQ8nTqVMab1VFSTTNMLTHPNHMNHPL19lpdIicG3yptdWdPHHLNhiJyQHVHunh764APBAP76AA7O7BIVHSbm2wdcBq31Y2xZW001NHwB1Zth5FlCSDm1EkJKszwpL9uPbhitNoQxWo3ZOrcv6jjLygjLRP0GOmYWyIHGWjyeG7gBIkEK12K7depxL5fn6qi5hampb5GHbZdcXuAoHjvInHPc85ZX44Za5HYtMVysgy9lBHOmK01wKIzgcrTNVvKH6B1zxLkIkcZepVyn8vrgLpAWIDffyswXBX5x9BonloVz1eh(MPn5b7pDs4S9ClJ2SfT5td1(3ucwZFxjyTN(SKNUFAvGVZ6SQmi9v5EFcQw(uuk7K5WPsHfgG4)z72gMMVkFhzwUzNtLdo4blCnSGP0IoNekkxJvcybSwzW)tfKGCnn)fzXkQerBOYo0vcdOkZMS7XQkuTynNaoAseDwoV59ifhc7eyc(HZ3bA5zLSDOn5fVecudfys94zjtUGaKt5gIPC32TfIsLAcWzR5k8SOTQfrKXF2etpvJOVRunakalhqy1lBfH5G34KmKvd6zXILr7sRq97O0TRJ4ygAevqBsSjaW)qoy3k)SH5PXKhbfeLakQADOYlHCpgm)PWlbANmpnTZoglabRqO08zqwEXgU(qVC)4Z8SCDm89C0TD1D988aBxG5WGVd2780mC9nC1TSmDC0O3GMyUFSJHPMf(kBBBhphl5CwdZr3YWsZX23rZXfsqdFdzCUeKe4LePKVtwhEwwdausvtJfaxNq2pQRWcr76m)HQZvjRSn2txZbWbDDlBDpBALa7084ypbkZaYy3aCaGn(z07WQWc6z06bs5GZo5A2sUvkCDsZjsjuc3cPc01Y)3G44RZkVt6M9UeS2AL31EkLOcFbquyfmItkKvjdjzYnBvrs2QYMn7oXuM1ombt87ImXg53qM(ZjOMeAtfRtyzdJLis0(B1AqVy1ALIgJsZ5A)LKTK2Zq)dtrMeg(izVclD37JwPHY7Bs5ocCx2gCDGFyjmiQCF8JjlLu9kPTHH4UWqK(OsucrQTGQ8MsozzY3XGl7f)4yq(2ZX20cC6BcInUsV6O)EptnBiCmnlhlpTw(7BVjxUfnPdScokBuWjvSK)WCr1ZqWjkXboiOWMWqd5QrXyZ8EKptTVNq3QnxCigpWEVlynyKn(krCsu4vVq)9oCs31YMYhRQw24HPNd0tgvOHuP40iP0LztXiRdQGPAWyzwjiWsBqQ9yKDTyxjeT2EKwZaoI02F4RrPjI0YzCLxVJj7Vo7S68SoBjKqsJ3rkqZ8yyki1d2)HqqPVFFafIA5DdwKepSGm1cVxu8zm0ZpELb6R95MrtPJD3OF8MbtcU46jAg3D(1xF(GZdU7taJoQOi6UpD9LNpy60bxE9NUn4JBmuRh7fymy4YxZhY43fKjX6GXwW4vP1(c)GAxh6kW0mKkzEjVpvssEe9(rIEeCdN)SeeRkIEH94vlQk3BOTSG)luv04xO)y(lC51B0XBuBzKRZCpSSpfbwTsljl82YzmCitdz72mxu0s(vUMyDGvpPjqLwmhi(mbK61ym8N7U9IZKF)YKYQZ(sZeyYzFEG(V86dFqYn(JV(GKH8p)dT0J(6SxF4SxFymja2LgBBE4uK7yhplBlxiTdxxntpYjmNAXbG0BBy4UA1I7gTzlwqDj51yIQ8iwKF)BlhcyDX07dKRUuOwNo)h1PyrYHhl3tGaahLrlXtzIMWWobD3o(PgbI2i0qfAEyju8aScHmm4yMB4fLITrqq6ahi4)w9S5KrhaP(pjnWvGdoi5v6OhajtmYcC(Bt3bXcwIbG(Cpp8eLglkH9ea2S2ERVsPjrH2MaX1HHEJNWfgaehhJmPRW6iuLrpjzlQWm4HRtb9SICz1kyQ2rKcVFo7stLcsTOCqEAs8B4cySRLRTpAmZgI8ZZ3HnOPcQlhJ9iJ4ZQqsBzKljds(RKyyqkk7OQTOrLH79oqZ37aTEVd0(9oqN37aDFVd079oq)37a11E3J8DV3O)U3C0F37o6V7Th937(dA24XKmqkU(CexcPjLdQp0HwJkjhVWbvnRH02XjhCty34HlZEMAhjpcadvgktOIcgqgLHGTcGujPQjkZcf)45JMn4IldcdMny2Tbdhmn8MlV9ZxmjC2xMoAWmCijLFjjowqgpXmgNPcggxRF6kSuAy2pIvGEF1mv2K4l)r6LouT3cydtxexklnm8(XKr1siH(QKvr8ZgaogZQHqafHNp)Lp9MvFP6ee0nJVj4VnYPp6EeQssb6)Vpfm7IRg9ojbSeO)TtdM)gPHkvQmVfXW558gBAbyoyGO(BkScqccWCo6lapEG5yvjEoQKQaiRFPQBHm57UPYFMHRKEaaH66QYE2xbZQrbthxdzvYgQQpa50RRXJ8SubO(X(Ljx5yE5Q4rGyeYPsuMXuQmDN(5xZXL8CYwvz9OkzjjLA)WDSp0nN8ovcStc6jz8Oa8KAuNWWYSOT8bh04pF)KKH985ORSH8jjjtLfEAqDj83VSlQOcOycKPRaziBPzAOBbgv1C1KLmNRKzZPAnepKP5nvp7fiphhFlBpnDpnndBUw7wEunGoZ4J26A(EQJYpqw7(HxpB21xn9Ip)LE1FREDQRnHe5oCOhufLHqMoyelKsqhwSeRNlljZbcytUZbsOp2BF7r8R1jE0QkuHaiZ6wkQZAxCgUHR6jg0lGVgX3o4lGFKaA0UQ8qz5X5U6c(oTJsbqotQepxPZpF)LNatfObbYQCh40Qk1B4JdR5iFQLK3VolU(2go262wog(wME11zHTbn2Zxt3W0WqZYXZ2a4h87vjq0nnlS7R(f5ISSNzXU2f0BzxO3PzC4W8B8OVNWpfZEEzYIO8)pF1sBjpQkAhFGQQ6utQiWxUpyCeSN1kWcA(nh35rkf0BwEpqUV8or6t7sOzPopuuwWXx312W3e061989idg0(0yqp1ZWxZ3rhEmq)YtFdKpagKPTLHTpWZmC0nRLpGeH18Ta2LVVoEWDU1jx0rhFSpyBs3130xZw31WYUPqFh5nMh9nWIIveeWuDDBhBnnlJ6SVLIFyBhwxBPXGSVUJdUnBaqYWG3ovMOiyz67zBQbuVNJ0(jxzxWijQ5yydsw2oGqglKq1xUkknKByGE(REbfA5gDCi7MQ9g2fF66jb3DXK)si4pljnCgGWOGWBf8kzph0ii3Fd333QzTVvhdU(pB2LwLe2AC1MqPiYRK1OQPt9WQkusNxgFuFYtZrzIdZGwwQFQcr)6QOLky)VL)TxFOEMSCsbQPtDdBsmrCBFAByuzdtCzEbe7reyX)jipbY2ximg8vz7a7GGvH0WYxa7qBiLsULtX2BfXNdDQru2fn5r)4luvVL44O0NU9cLqCZrFkp4TH1hQfyXxaBmPXu0olsZ3fhkB23MM2fmd8OiluaGcpVsi3g0unDIqQZzZOvDzBDStqKJOX314bUarNj2mNtdPL42lQkYGbf892FbNb1NSbOJHSv1h5g7Njwefd0ti1HS4bt0u3cyBBZwLjCVwoNn4qvpt3I9rNJfzCDIinUKp4cUEoYZZp4l3oz2OP96RN9ByiYY63gmD6fxFSb3UHLcME9NVDu9HXBbgP9BAWixlUjo2FAxn4ZJ2VXHAM(Et4MrZERX)rzZgro4oF6TxCEtRuPqeU)y88KDf5(411t(6ETRLRz7Xx3FxC3PCoeY(x(6ekmS9qWdpfyrcoXErBY42jFDceL7Ey0Hg7ntVyuWS31ErV97GVm4QbtEt(B3jnaSpGjH8(wW2ikiED51F6RVRDNEl65JaMxxrz12JtNwgSlh)l4b08(wVoC0bxo48lMCSnQURXTt(80RV9MBUCWp1c5o5o2OjJU6NEhIbTS9TmnAf347QJUhEADmWnbN33qm8NnZZtl5aFvDIafem3r)CXqr3O71oAYmWlLTGg2nkLCwGEkNtqcRBxNSabY68Qf5fzyhuLVLIPEgh9O8oi0R7aaNHRGyRvDiGDt3fWnVGioHmYpVipkEbFZjAzYLU0bukEGZEUzzEMmrNhZ9oxruCcA9w3rtg2BZXLZZ9M8sUlqKbrJXYsLkLX6HD7khzB4Hik2cAQQll7cq1jOzz302(qmnSn(6oCGJUa74nFlDzukOt2LfrCCb9BZdo5yYlMi7LWYfur0fLLONDYdw9weUJcIkLmj2PQ(75f4JoUQUNs1yLw77aaIr13ecS0ZgIAhtmPjCrBlxliImi0ptpplDNw9bMlMileJh27yE6o1bf2rNIpYztlhtxdDthvkPiOTG8H1HaoHKOnHq5B1Izo2aczbzkG5zBrPkWb52XPILEVgdZNw(bthnzq4pn6YlRnRQ3V)1pQYSLYUOIz13tJETHt5i0S67vPRvk)J5cX1TU1BviM5EMmaAsxMvNMAbv9S5HCFyu3OzsqUNBJ9QQBxxdkYtXa8C7hdqDpOQ6HuRdAY3w12E2kwHR)XSV7yv3yQDgBDTTa58jJUD20bxEOD0MD9ppD0Oj92m1BVv2oidZE71YgyUwrBlyiBbDo3CjPIYIJkIdPqw73QFyCQCV(HFQvZ(vF5Xo6iYepFmBm6atuzJXuNOt1vWQZvVY(ann488Y2xXRYfRfB4ZyKoR66oKc)gaPQuH84tlffaSaQVOu0PJZ47RwldvytYbgTFu2kTuKVDDKWoqAmTMLh2uwS5nrfNMSjrEBVA1wAkyvx3hSUPP5ZJoN7dgzNGviwe1PjogQsFtcaA7dFqAYsipgUxz4B6wQ4jQmRmFKBRBW(ArcxRJMEdv9q0HueKV5ArQQT7a(pKa74BV8YWZhD5OzJc)2ftohukb8y81t)8OWz3o76PxacVyvPWR3h3THYYuohLgMJcHZRltPSH3r9kcwHKXQWRg81lM8zSYMb7YOoauHc6ydsScRPbHnsnhih1myFaR0j4T6lxea4XpDZGjJUSdojxdu)n82j4FOLyrvrQS9u5KpAZfcMnD0GRgvxA7XxmfE0TtK3zYDyDKOiYc4abwa5vLTc2DcE9pF2zV(amIxF451c4FRwlE9bofYxFGhw5RpKub)dorcc)CEMOheo1KXH)hXxMaFbrey4jPP0YsWduJQuaIFFvEhKsMB9FaqeyOarJ5kcGC7UQxFyTOqudxiQO1V(a6IV1IGpyHGHpJfrPL5Dgqvl8NV0eWAvQiI4x)Z4SrtcaSwkhijX)6dWwnIWuhWHiO8TNJVfGGmAXxF4dYqsE9btBTF41)SKO(4bAHYxF4FNg1FIxxMjGqM6zvafa2BB7e)rezuSOsa5ZQqgaxkoMBQQFa8nq9cWMv54EdES68aiKgsNhMMOQcsAg5Aa1jIEc(cTcs0VQyNOf(FK6tq0aoujrqXF2I7npciIMBaBh(JzlW3lcwM1ykbADriK0ahDlqcP5pZSjS5jirxCQnlbg61XxKM(lNwoCWYfecXpLxlUBm6qckW9VnvSeXRbQxngu7PH8HFqchiywu(dT9I7y)mQGet7ifI)6UeuIg2N)xbJIqC48c(CEXJTjbiq3xFaGIvhPPErj)Xg5jy8)PJpo2nhpWAbpWFKC3sk4HDlnQRLIS2Os5lPWERF8hoMGYb686(cjnliE4vGm)I8Sw6uktlKSJsRalmiUnuJKniWsqpVngCOlPoHc0aL4WAClzZosXHuvOLwTD)CurgPCGwhq4L1Eb1BVvi7XD5mifJ8Dmlwx7prw(OKUyBmkdGTntcMMkpOTv6e)ybC6icjPfUIHiyPNjp6GFnGvcl1mP7vaSq)gGenVsERto9k5L(pjoKpmZy(KcZ2UO)JKXj9mAAh8Un4NKhGeEMSy8uTt9gwr5fVaVK8K1h86y0kP1oLIS(qAWdYqJoiJ62W2Lx7wqrwlv5Xmn8WVT1sDWjZN7JrpeP5XDM0XkfERwARZ4)1rphdxoj99oqPoq7xljixM3Ks6ws5JW0RjfCcYlhJSvTX1nce1A(QeIYcsxlIPyeyzCYOQSCyvz(63jfwBUiy6nh8hFALyDEwNujxnStcHqcFmHJ5x89T(AvcQQZqq0PcyDKJC2NUEitjybGI)eDEHClbR6xn5IbBOd2HojW6brft5qh6Y3erBHvFiGtAUQgztU5aqyu2tjf5zyy6GnTXGNoGw)HdcncjcVkAfKu2ym(frboEvpVrxhoBnFkd2GGf57kwHxruW)8JySh3S(f8Wmt)bEPXUnUUn4K9eYE4Z5q2BzhfHgqx6Gxcd2TCzoEDFunlhHkhK8QswbUNob5nOyruMi8kWuZvuLWEr1yDiqDoeqbh3)Wrz)b72Sb4tIYQqCGbBtksQuTGhcs3daYlJEk60K801VKdFyD4Fjpfq4CvV6Hq07aqmasWtCAq(jSxZX2u9M8KsqIrZq1xFe703XKb84I8YQ55ONVpCvsrb6p6cu0L3y1nT9SCQ70pAN1x3J3D)s(ZPKJ0HPuiAF4Qi0zXm6g)2mFtZ6()JMVLLdjYhCzYt80bVlWSb1iiTiiglLmLdFtZ4gcKutC9m4M1jyiKgz5w8e)GzoRij7XML0YY0VU9aP55457Z07xbrHumqYG8DP9NQd23iM19lizjWhpWzj6sHxvh(7vrfvVGrlDEuhgMVPxDJesGWqZvsXFonkbDpplhJ26dQV(pzOMSHjRgP70qYE6gY1pp7FbM2NlGT7(OULJLUfpv36PQ5j5wFtm)zmWGcC(mL)zXM(Wa0ITm1VNlZGeg6gUaZKeb3c2X3KS4i7ZoAoSCIF9Y77WvIkyyAEEmK3YqkPS(BxoAstzkjmapC80oSi2G8r9LSmQTIQdY17HSTMHchnAjqb7xn44Rp8LOQckpJEiPHU8Q(B2mvDBB5gd4KQGqZBWBvblJ8JrP)CuY33JjBBH)MfGGYQgu66Ct8eCXkm7ymKwWYSa3Tgtbu3dD0199nzMMDnqWUnqjLfNGDvoo)ReXOBaeK9red8xwd63KaL1lnVJAWpG8k33CVrJWMNg3hgbGrmWYmUtl5PJuk29rbBtpnwO1WRfz4zVpzmmkE1bKDS98SO5xl1z45yP2rHmJPW1)AcMI8hUbYXb03KRTRLnVLAQvROQdkrNurvVVIQPs4Z3YYv6gVkptiTuVa8p04MKWxILBA0MED3NEhTbInAZbKdnPg4aVBRTaG((a4ciRkqyk6aMhT1iLCtRw2yCyC)tRPcQuBJB6UdyHfLCCzQVr6t3scIP5vlkG4CqTO)cS)NdX0CEE6EgB1D1D8ybqZgRDA(8HPg8nmNGYT0(xVj6475kjHgXpDnxMl8P8mQasajCEeMV93GSD2sPY0dow(G0dthETPd7FZ0Hsk00011tAByPyoOgGBLO6WM6DbdnYwKLs6ZZdmxZ(KtW2eLwPJ4swN8MBP3oC1GRGipfhp0LNZlIdPJxzIvB7FECOJtHWUytTZGizfL7X2n0PUwIMFJWNUJIThTiA768S8DaJ(tqAa7ze1Y2sZICnAPK8890m4P)fmdG1OTczU0k7mEo85iKGrEvkRVZIKO0WDGPYYwnQImhaSl7KnPgFvoPZNeRkTSSGCdWl)zERB)O093Za9MFk7A)ZBN63)Ud8Ba386F07M39h9UPqwlJHqp2RN4(72koSvXf37on83v683Vv7k6xqHFVwTbyvN(9KrAQ9pcHfRFVwv83zc8EXXk845wX12WWcIbVL(oQNxR0xFHqPAUJtcxzWUvm40fl6l3Q91tg)LecZxh79vQmfYB4nvWc1bFPowh(hZIIDBRk7XdEM9Hq)macOBgDZEXIALjpPU6U0wrv1x5a5pNJoAwGFAnnD57JbujWa77U8OfR7UCn37VmSXSJOEURlutIP7HKvlKN4i9rCAwRrdLtunoXYKIsUFm4QZP(rOqcMTy1q6YaOIPuFlOAyaJUCS8xleCNP(KgR)H7KVpEYZnKRf0U5H1Deo3870tOhKhIy7jUJjyzaiKnP8Y6MxpPSUIpDH8gQJwm4BMn3xo13TH)FWpAfQBPynTo)niGtaTFfRP5)awtRF)xtU248b3r3NHH79dYtcFLWQvmwKNNIx7I(QyY6E359vTSi0OWmDWfN3rxJufbTZEkB7PH1OJZxScXc5pqyNAs8P6rDMR6NfJGETbs193))m
+```
+</p>
+</details>
+
 ## Installation and Mod Notes
+
 Think of this UI as a base to build onto for your own needs. Below are some helpful tips for customizing or fixing various parts of the UI.
 #### Dominos
 * Left-clicking the Dominos map button will show all bars.

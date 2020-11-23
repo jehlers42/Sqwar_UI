@@ -1,0 +1,67 @@
+
+KalielsTrackerDB = {
+	["char"] = {
+		["Alaeana - Proudmoore"] = {
+			["quests"] = {
+				["num"] = 26,
+			},
+		},
+		["Gwathren - Proudmoore"] = {
+			["collapsed"] = true,
+		},
+		["Farathiel - Proudmoore"] = {
+			["quests"] = {
+				["num"] = 24,
+			},
+		},
+		["Gwathren - Hyjal"] = {
+			["collapsed"] = true,
+		},
+		["Celíara - Proudmoore"] = {
+			["quests"] = {
+				["num"] = 13,
+			},
+		},
+	},
+	["global"] = {
+		["helpTutorial"] = 11,
+		["version"] = "4.2.4",
+	},
+	["profileKeys"] = {
+		["Alaeana - Proudmoore"] = "Default",
+		["Gwathren - Hyjal"] = "Default",
+		["Celiara - Hyjal"] = "Default",
+		["Celíara - Proudmoore"] = "Default",
+		["Farathiel - Proudmoore"] = "Default",
+		["Gwathren - Proudmoore"] = "Default",
+		["Mirethiel - Proudmoore"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["xOffset"] = 0,
+			["yOffset"] = -126,
+			["soundQuest"] = false,
+			["borderColor"] = {
+				["r"] = 0.8274509803921568,
+				["g"] = 0.5568627450980392,
+				["b"] = 1,
+			},
+			["font"] = "Roboto-Bold",
+			["maxHeight"] = 774,
+			["sIcecrownRaresRealmZone"] = "NA",
+			["hdrCollapsedTxt"] = 2,
+			["sIcecrownRaresOnlyInZone"] = true,
+			["sIcecrownRaresTimerCorrection"] = 73,
+			["hdrBgr"] = 3,
+			["hdrBgrColorShare"] = true,
+			["colorDifficulty"] = true,
+			["hdrBtnColorShare"] = true,
+			["progressBar"] = "Grid2 Flat",
+			["textWordWrap"] = true,
+			["bgrColor"] = {
+				["a"] = 0,
+			},
+			["hdrTxtColorShare"] = true,
+		},
+	},
+}

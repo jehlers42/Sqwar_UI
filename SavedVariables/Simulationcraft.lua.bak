@@ -1,0 +1,55 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Alaeana - Proudmoore"] = "Alaeana - Proudmoore",
+		["Gwathren - Proudmoore"] = "Gwathren - Proudmoore",
+		["Jiaxing - Proudmoore"] = "Jiaxing - Proudmoore",
+		["Kathlian - Proudmoore"] = "Kathlian - Proudmoore",
+		["Gwathren - Hyjal"] = "Gwathren - Hyjal",
+		["Mirethiel - Proudmoore"] = "Mirethiel - Proudmoore",
+		["Seimira - Proudmoore"] = "Seimira - Proudmoore",
+		["Ravna - Proudmoore"] = "Ravna - Proudmoore",
+		["Sifrun - Proudmoore"] = "Sifrun - Proudmoore",
+		["Farathiel - Proudmoore"] = "Farathiel - Proudmoore",
+		["Celiara - Hyjal"] = "Celiara - Hyjal",
+		["Athaeriel - Proudmoore"] = "Athaeriel - Proudmoore",
+		["Celíara - Proudmoore"] = "Celíara - Proudmoore",
+		["Velithriel - Proudmoore"] = "Velithriel - Proudmoore",
+		["Lucrais - Proudmoore"] = "Lucrais - Proudmoore",
+	},
+	["profiles"] = {
+		["Alaeana - Proudmoore"] = {
+		},
+		["Gwathren - Proudmoore"] = {
+		},
+		["Jiaxing - Proudmoore"] = {
+		},
+		["Kathlian - Proudmoore"] = {
+		},
+		["Gwathren - Hyjal"] = {
+		},
+		["Mirethiel - Proudmoore"] = {
+		},
+		["Seimira - Proudmoore"] = {
+		},
+		["Ravna - Proudmoore"] = {
+		},
+		["Sifrun - Proudmoore"] = {
+		},
+		["Farathiel - Proudmoore"] = {
+		},
+		["Celiara - Hyjal"] = {
+		},
+		["Athaeriel - Proudmoore"] = {
+		},
+		["Celíara - Proudmoore"] = {
+			["minimap"] = {
+				["minimapPos"] = 232.4607899744047,
+			},
+		},
+		["Velithriel - Proudmoore"] = {
+		},
+		["Lucrais - Proudmoore"] = {
+		},
+	},
+}

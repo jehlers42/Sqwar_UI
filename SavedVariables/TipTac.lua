@@ -1,0 +1,55 @@
+
+TipTac_Config = {
+	["fontFace"] = "Interface\\Addons\\SharedMedia_MyMedia\\font\\Roboto-Regular.ttf",
+	["barHeight"] = 8,
+	["selfAurasOnly"] = true,
+	["tipBackdropEdge"] = "Interface\\Addons\\Raven\\Borders\\SingleGray.tga",
+	["optionsLeft"] = 854.6665649414062,
+	["backdropEdgeSize"] = 12,
+	["anchorFrameUnitPoint"] = "BOTTOMLEFT",
+	["tipColor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.662392795085907, -- [4]
+	},
+	["healthBar"] = true,
+	["healthBarText"] = "value",
+	["tipBorderColor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["noCooldownCount"] = true,
+	["healthBarClassColor"] = false,
+	["reactColoredBorder"] = false,
+	["fontSize"] = 13,
+	["anchorWorldTipType"] = "normal",
+	["colGuild"] = "|cffa850e8",
+	["showBuffs"] = true,
+	["optionsBottom"] = 410.9999694824219,
+	["reactColoredBackdrop"] = false,
+	["anchorWorldUnitPoint"] = "BOTTOMLEFT",
+	["aurasAtBottom"] = false,
+	["backdropInsets"] = 3,
+	["preFadeTime"] = 0.05000000074505806,
+	["modifyFonts"] = true,
+	["fontFlags"] = "OUTLINE",
+	["anchorWorldTipPoint"] = "BOTTOMLEFT",
+	["left"] = 28.83307647705078,
+	["gradientTip"] = false,
+	["colSameGuild"] = "|cff00ffbe",
+	["anchorWorldUnitType"] = "normal",
+	["fadeTime"] = 0.1500000059604645,
+	["targetYouText"] = "<<YOU>>",
+	["showTalents"] = false,
+	["top"] = 461.1669616699219,
+	["anchorFrameTipType"] = "normal",
+	["barFontFace"] = "Interface\\Addons\\SharedMedia_MyMedia\\font\\Roboto-Regular.ttf",
+	["auraSize"] = 20,
+	["barTexture"] = "Interface\\AddOns\\Plater\\images\\regular_white",
+	["barFontSize"] = 12,
+	["anchorFrameTipPoint"] = "BOTTOMLEFT",
+	["auraMaxRows"] = 2,
+}

@@ -1,0 +1,360 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Alaeana - Proudmoore"] = "Default",
+		["Gwathren - Proudmoore"] = "Default",
+		["Jiaxing - Proudmoore"] = "Default",
+		["Lucrais - Proudmoore"] = "Default",
+		["Athaeriel - Proudmoore"] = "Default",
+		["Farathiel - Proudmoore"] = "Default",
+		["Seimira - Proudmoore"] = "Default",
+		["Kathlian - Proudmoore"] = "Default",
+		["Gwathren - Hyjal"] = "Default",
+		["Mirethiel - Proudmoore"] = "Default",
+		["Celiara - Hyjal"] = "Default",
+		["Ravna - Proudmoore"] = "Default",
+		["Celíara - Proudmoore"] = "Default",
+		["Velithriel - Proudmoore"] = "Default",
+		["Sifrun - Proudmoore"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["TutorialTracker"] = 2,
+			["groupfinder"] = {
+				["enabled"] = false,
+				["frame"] = {
+					["y"] = -182.4997863769531,
+					["x"] = -38.334228515625,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+				},
+			},
+			["low_level_tutorial"] = true,
+			["TutorialPopupID"] = 1,
+			["is_BFA_version"] = true,
+			["rarescan"] = {
+				["name_cache"] = {
+					["Mechagonian Nullifier"] = 151124,
+					["Skullripper"] = 142437,
+					["Bronjahm"] = 174058,
+					["Arachnoid Harvester"] = 151934,
+					["Oronu"] = 152397,
+					["Echo of Myzrael"] = 141668,
+					["Thundering Goliath"] = 141616,
+					["Overseer Krix"] = 142423,
+					["Armored Vaultbot"] = 150394,
+					["Boggac Skullbash"] = 151308,
+					["Cresting Goliath"] = 141618,
+					["Burning Goliath"] = 141615,
+					["Malfunctioning Beastbot"] = 151933,
+					["Yogursa"] = 142440,
+				},
+				["recently_spotted"] = {
+					[151933] = {
+						1606101403, -- [1]
+						1462, -- [2]
+						0.6297411918640137, -- [3]
+						0.574365496635437, -- [4]
+						"Creature-0-0000-0000-00000-151933-0000000000", -- [5]
+						"Malfunctioning Beastbot", -- [6]
+						"Wickerdaddy", -- [7]
+						1606101402, -- [8]
+					},
+					[151308] = {
+						1606103117, -- [1]
+						1462, -- [2]
+						0.4715593457221985, -- [3]
+						0.3746625185012817, -- [4]
+						"Creature-0-0000-0000-00000-151308-0000000000", -- [5]
+						"Boggac Skullbash", -- [6]
+						"Supernewf", -- [7]
+						1606103116, -- [8]
+					},
+					[151934] = {
+						1606102897, -- [1]
+						1462, -- [2]
+						0.5400292873382568, -- [3]
+						0.4101278185844421, -- [4]
+						"Creature-0-0000-0000-00000-151934-0000000000", -- [5]
+						"Arachnoid Harvester", -- [6]
+						"Supernewf", -- [7]
+						1606102896, -- [8]
+					},
+				},
+				["search_group"] = false,
+				["recently_killed"] = {
+					["Player-3661-08C639CE"] = {
+					},
+					["Player-5-0AD4DC5E"] = {
+					},
+					["Player-5-0ADD7163"] = {
+					},
+				},
+			},
+			["anchor_options"] = {
+				[942] = {
+					["Enabled"] = true,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+					["ScaleOffset"] = 0,
+					["Alpha"] = 1,
+					["YOffset"] = 0,
+				},
+				[896] = {
+					["Enabled"] = true,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+					["ScaleOffset"] = 0,
+					["Alpha"] = 1,
+					["YOffset"] = 0,
+				},
+				[876] = {
+					["Enabled"] = true,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+					["ScaleOffset"] = 0,
+					["Alpha"] = 1,
+					["YOffset"] = 0,
+				},
+				[1161] = {
+					["Enabled"] = true,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+					["ScaleOffset"] = 0,
+					["Alpha"] = 1,
+					["YOffset"] = 0,
+				},
+				[895] = {
+					["Enabled"] = true,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+					["ScaleOffset"] = 0,
+					["Alpha"] = 1,
+					["YOffset"] = 0,
+				},
+				[14] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[1355] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+				[875] = {
+					["Enabled"] = true,
+					["YOffset"] = 0,
+					["Alpha"] = 1,
+					["ScaleOffset"] = 0,
+					["TextColor"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0.2, -- [3]
+						0.854, -- [4]
+					},
+				},
+			},
+			["quests_tracked"] = {
+				["Player-5-0AF4F5C5"] = {
+				},
+				["Player-5-0ADD7163"] = {
+				},
+				["Player-5-0AF7E53B"] = {
+				},
+				["Player-5-0AD57F77"] = {
+				},
+				["Player-5-0AD4DC5E"] = {
+				},
+				["Player-5-0B300630"] = {
+				},
+				["Player-5-0ADF967F"] = {
+				},
+				["Player-5-0B3DE0D3"] = {
+				},
+				["Player-3661-08C4B780"] = {
+				},
+				["Player-5-0AD893FA"] = {
+				},
+				["Player-5-0B3DE038"] = {
+				},
+				["Player-5-0B24D38F"] = {
+				},
+				["Player-5-0B3DE0AD"] = {
+				},
+				["Player-3661-08C639CE"] = {
+				},
+			},
+			["quests_all_characters"] = {
+				["Player-5-0AD4DC5E"] = {
+				},
+				["Player-5-0ADD7163"] = {
+				},
+			},
+			["player_names"] = {
+				["Player-3661-08C639CE"] = {
+					["class"] = "HUNTER",
+					["name"] = "Celiara",
+					["realm"] = "Hyjal",
+				},
+				["Player-3661-08C4B780"] = {
+					["class"] = "HUNTER",
+					["name"] = "Gwathren",
+					["realm"] = "Hyjal",
+				},
+				["Player-5-0ADD7163"] = {
+					["class"] = "DEATHKNIGHT",
+					["name"] = "Alaeana",
+					["realm"] = "Proudmoore",
+				},
+				["Player-5-0AD57F77"] = {
+					["class"] = "DEMONHUNTER",
+					["name"] = "Farathiel",
+					["realm"] = "Proudmoore",
+				},
+				["Player-5-0B24D38F"] = {
+					["class"] = "ROGUE",
+					["name"] = "Gwathren",
+					["realm"] = "Proudmoore",
+				},
+				["Player-5-0AD4DC5E"] = {
+					["class"] = "HUNTER",
+					["name"] = "Celíara",
+					["realm"] = "Proudmoore",
+				},
+				["Player-5-0AF4F5C5"] = {
+					["class"] = "DRUID",
+					["name"] = "Mirethiel",
+					["realm"] = "Proudmoore",
+				},
+			},
+			["history"] = {
+				["period"] = {
+					["global"] = {
+						["201024"] = {
+							["artifact"] = 1210,
+							["resource"] = 1290,
+							["quest"] = 9,
+							["gold"] = 2535900,
+						},
+						["201016"] = {
+							["quest"] = 2,
+							["resource"] = 60,
+						},
+						["201110"] = {
+							["quest"] = 1,
+						},
+					},
+					["character"] = {
+						["Player-5-0AD4DC5E"] = {
+							["201024"] = {
+								["artifact"] = 601,
+								["resource"] = 681,
+								["quest"] = 5,
+								["gold"] = 2535900,
+							},
+							["201016"] = {
+								["quest"] = 2,
+								["resource"] = 60,
+							},
+							["201110"] = {
+								["quest"] = 1,
+							},
+						},
+						["Player-5-0ADD7163"] = {
+							["201024"] = {
+								["artifact"] = 609,
+								["quest"] = 4,
+								["resource"] = 609,
+							},
+						},
+					},
+				},
+				["quest"] = {
+					["global"] = {
+						["total"] = 12,
+						[53814] = 2,
+						[60542] = 1,
+						[53951] = 2,
+						[51034] = 2,
+						[52475] = 2,
+						[54281] = 1,
+						[53784] = 1,
+						[56139] = 1,
+					},
+					["character"] = {
+						["Player-5-0AD4DC5E"] = {
+							[56139] = 1,
+							["total"] = 8,
+							[53784] = 1,
+							[53814] = 1,
+							[52475] = 1,
+							[53951] = 1,
+							[51034] = 2,
+							[60542] = 1,
+						},
+						["Player-5-0ADD7163"] = {
+							["total"] = 4,
+							[52475] = 1,
+							[53814] = 1,
+							[53951] = 1,
+							[54281] = 1,
+						},
+					},
+				},
+				["reward"] = {
+					["global"] = {
+						["artifact"] = 1210,
+						["resource"] = 1350,
+						["gold"] = 2535900,
+					},
+					["character"] = {
+						["Player-5-0AD4DC5E"] = {
+							["artifact"] = 601,
+							["resource"] = 741,
+							["gold"] = 2535900,
+						},
+						["Player-5-0ADD7163"] = {
+							["artifact"] = 609,
+							["resource"] = 609,
+						},
+					},
+				},
+			},
+		},
+	},
+}

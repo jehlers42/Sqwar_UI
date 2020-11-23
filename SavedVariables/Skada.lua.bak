@@ -1,0 +1,69 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Gwathren - Hyjal"] = "Default",
+		["Celíara - Proudmoore"] = "Default",
+		["Celiara - Hyjal"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modeclicks"] = {
+				["Damage"] = 4,
+			},
+			["windows"] = {
+				{
+					["barheight"] = 14,
+					["y"] = 3.333175897598267,
+					["barfont"] = "Noto Sans Regular",
+					["title"] = {
+						["color"] = {
+							["a"] = 0.5235037803649902,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["bordercolor"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["font"] = "2002 Bold",
+						["borderthickness"] = 0,
+						["height"] = 13,
+						["fontsize"] = 10,
+						["texture"] = "KT - Flat",
+					},
+					["modeincombat"] = "Damage",
+					["point"] = "BOTTOMRIGHT",
+					["barfontsize"] = 12,
+					["mode"] = "Damage",
+					["bartexture"] = "KT - Flat",
+					["barwidth"] = 354.1675415039063,
+					["barspacing"] = 1,
+					["background"] = {
+						["bordertexture"] = "None",
+						["color"] = {
+							["a"] = 0.7158110737800598,
+						},
+						["height"] = 217.4998321533203,
+					},
+					["x"] = -2.501953125,
+				}, -- [1]
+			},
+			["versions"] = {
+				["1.6.3"] = true,
+				["1.8.0"] = true,
+				["1.6.4"] = true,
+				["1.6.7"] = true,
+			},
+			["reset"] = {
+				["instance"] = 2,
+				["leave"] = 3,
+			},
+		},
+	},
+}

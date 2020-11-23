@@ -1,0 +1,73 @@
+
+OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "9.0.4",
+		["dbVersion"] = 5,
+	},
+	["profileKeys"] = {
+		["Alaeana - Proudmoore"] = "Default",
+		["Gwathren - Proudmoore"] = "Default",
+		["Jiaxing - Proudmoore"] = "Default",
+		["Kathlian - Proudmoore"] = "Default",
+		["Gwathren - Hyjal"] = "Default",
+		["Mirethiel - Proudmoore"] = "Default",
+		["Seimira - Proudmoore"] = "Default",
+		["Ravna - Proudmoore"] = "Default",
+		["Sifrun - Proudmoore"] = "Default",
+		["Farathiel - Proudmoore"] = "Default",
+		["Celiara - Hyjal"] = "Default",
+		["Athaeriel - Proudmoore"] = "Default",
+		["Celíara - Proudmoore"] = "Default",
+		["Velithriel - Proudmoore"] = "Default",
+		["Lucrais - Proudmoore"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["rules"] = {
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 1,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [1]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["minutes"] = {
+							["b"] = 0.4901960784313725,
+							["g"] = 0.7372549019607844,
+							["r"] = 0,
+						},
+						["seconds"] = {
+							["b"] = 0,
+							["g"] = 0.5725490196078431,
+						},
+						["soon"] = {
+							["b"] = 0.3215686274509804,
+							["g"] = 0,
+						},
+					},
+					["fontSize"] = 19,
+					["yOff"] = -1,
+					["fontFace"] = "Interface\\Addons\\SharedMedia_MyMedia\\font\\stentiga.ttf",
+				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

@@ -1,0 +1,10 @@
+lightweight tag 2052ef2dde46af3509ea75f1da4f4fdd0fe40aa7 r533
+Author:	Tom Merrow <tomber@toja.me>
+Date:	Thu Oct 29 16:31:07 2020 -0700
+
+commit 2052ef2dde46af3509ea75f1da4f4fdd0fe40aa7
+Author: Tom Merrow <tomber@toja.me>
+Date:   Thu Oct 29 16:31:07 2020 -0700
+
+    Update lock school spells to replace ones that have a lockout in 9.0.1
+

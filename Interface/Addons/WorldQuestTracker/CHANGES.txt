@@ -1,0 +1,16 @@
+lightweight tag dc93f02f5e5851f0673d426fb8c11869c7a31092 v9.0.2.408
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Mon Nov 23 09:22:47 2020 -0300
+
+commit dc93f02f5e5851f0673d426fb8c11869c7a31092
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Mon Nov 23 09:22:47 2020 -0300
+
+    Fixed an error when clicking on a group
+
+commit 1b4ddc26f164eebf08af843dc9a1ddddbad13cf4
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Sat Nov 21 18:43:50 2020 -0300
+
+    Fix framework version
+
